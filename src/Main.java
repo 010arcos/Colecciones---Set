@@ -190,7 +190,7 @@ public class Main {
 
         System.out.println();
         System.out.println("Interseccion entre Planetas y Planetas Enanos");
-        System.out.println("Cuerpos celestes considerados como Planetas Enanos (Y a la vez planetas");
+        System.out.println("Cuerpos celestes considerados como Planetas Enanos (Y a la vez planetas)");
         System.out.println("-------------------------------------------");
         for (CuerpoCeleste cp: inter){
             System.out.println(cp.getNombre());
