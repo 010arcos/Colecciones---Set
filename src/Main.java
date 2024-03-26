@@ -158,7 +158,7 @@ public class Main {
         Set<CuerpoCeleste> planetasEnano=new HashSet<>();
         CuerpoCeleste plutonEnano=  new CuerpoCeleste("Pluton", 884, CuerpoCeleste.TipoCuerpoCeleste.PLANETA_ENANO );
         planetasEnano.add(plutonEnano);
-        planetas.add(plutonEnano); //fallo que me ha tenido 2h, el no añadir plutonEnano a planetas, soy subnormal
+        planetas.add(plutonEnano); 
 
 
         System.out.println("VI. PRINT PLANETAS PLUTON ENANO ");
@@ -190,7 +190,7 @@ public class Main {
 
         System.out.println();
         System.out.println("Interseccion entre Planetas y Planetas Enanos");
-        System.out.println("Cuerpos celestes considerados como Planetas Enanos");
+        System.out.println("Cuerpos celestes considerados como Planetas Enanos (Y a la vez planetas");
         System.out.println("-------------------------------------------");
         for (CuerpoCeleste cp: inter){
             System.out.println(cp.getNombre());
